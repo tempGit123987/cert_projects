@@ -1,0 +1,54 @@
+html {
+  font-family: sans-serif, serif;
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 270px;
+  border-right: 3px solid grey;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#navbar > header {
+  font-size: 32;
+}
+
+#navbar ul {
+  padding: 0;
+}
+
+#navbar li {
+  list-style: none;
+  border-top: 2px solid black;
+  text-align: left;
+  padding: 10px 10px;
+  display: block;
+  border-left: none;
+  border-right: none;
+  
+}
+
+#navbar li:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 280px;
+}
+
+code {
+  display: block;
+  background-color: #f7f7f7;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 100px)
+{
+  /* do...something? */
+}

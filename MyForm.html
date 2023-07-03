@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Let's talk about DOGS</h1>
+    <p id="description">Please fill out this brief survey about dogs.</p>
+    <form id="survey-form" method="post">
+      <fieldset>
+        <label for="name" id="name-label">Full Name: <input type="text" id="name" placeholder="John Doe" class="personal-info" required></label>
+        <label for="email" id="email-label">Email: <input type="email" id="email" class="personal-info" placeholder="JDoe@dogsRawesome.com" required></label>
+        <label for="age" id="number-label">Age: <input type="number" min="13" max="120" id="number" placeholder="Age" class="personal-info"></label>
+        <label>Number of Dogs you own: 
+          <select id="dropdown">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3+</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Which do you like more: Dogs or Cats?</legend>
+        <label for="radio-dogs"><input type="radio" name="animal-pref" id="radio-dogs" class="inline" value="radio-dogs"> Dogs!</label>
+        <label for="radio-cats"><input type="radio" name="animal-pref" id="radio-cats" class="inline" value="radio-cats"> Cats!</label>
+        <label for="radio-both"><input type="radio" name="animal-pref" id="radio-both" class="inline" value="radio-both"> Both!</label>
+      </fieldset>
+      <fieldset>
+        <legend>Best things about dogs:</legend>
+        <label><input type="checkbox" id="ear-desc" value="ear-desc" class="inline">Floopy ears</label>
+        <label><input type="checkbox" id="tail-desc" value="tail-desc" class="inline">Wagging tail</label>
+        <label><input type="checkbox" id="fluffy-desc" value="fluffy-desc" class="inline">Fluffy!</label>
+      </fieldset>
+      <fieldset>
+        <label>Any other comments?</label>
+        <textarea id="comments" name="comments" placeholder="what's up?" rows="3" cols="30"></textarea>
+      </fieldset>
+      <input type="submit" id="submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  
+}
+main {
+  background-color: grey;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 0;
+  color: rgb(145, 13, 13);
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-div {
+  padding: 20px;
+  background-color: rgb(100,100,100);
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#headline {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  list-style-position: inside;
+}
+
+#redirect {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#tribute-link:hover {
+color: white;
+}

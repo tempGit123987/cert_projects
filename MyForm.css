@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  /* TO DO, put cute background image of dog
+  for now, just use a solid color */
+  background-color: rgb(18, 79, 166);
+  color: white;
+}
+
+h1, p {
+  text-align: center;
+}
+
+form {
+  width: 75vw;
+  min-width: 300px;
+  max-width: 700px; 
+  margin: 0 auto;
+}
+
+.personal-info {
+  display: block;
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+#dropdown {
+  border: 1px solid black;
+}
+
+input[type="number"] {
+  width: 7%;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 5px dotted green;
+  margin-bottom: 10px;
+}
+
+fieldset:last-of-type {
+  border-bottom: 3px solid black;
+}
+
+label {
+  display: block;
+  margin: 10px auto;
+}
+
+input[type="submit"] {
+  margin: 1em auto;
+  display: block;
+  width: 45%;
+  height: 2em;
+  background-color: blue;
+  color: white;
+}
+
+textarea {
+  border: 1px solid black;
+}
